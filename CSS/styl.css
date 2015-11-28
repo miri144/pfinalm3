@@ -1,0 +1,149 @@
+.body {
+    background-color: #b31b1b;
+}
+body{
+    height:100%;
+    width:100%;
+}
+.banner {
+    width: 100%;
+}
+.logo {
+    width: 10%;
+    margin-left: 3%;
+    background-color: white;
+    float: left;
+}
+#nav {
+    width: 80%;
+    background-color: white;
+    text-align: right;
+    color: #b31b1b;
+    float: left;
+    margin-top: 45px;
+}
+/* replace margin-top with a vertical center align command */
+
+.logo img {
+    width: 100%;
+}
+
+a {
+    text-align: right;
+    color: #b31b1b;
+    font-size: 25pt;
+    font-family: 'Slabo 27px', serif;
+    text-decoration: none;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
+a:hover {
+    color: #222222;
+}
+
+a:active {
+    color: #222222;
+}
+
+.identity_rmt {
+    background-image: url(../img/bigboi.png);
+    background-size:cover;
+    width: 100%;
+    float: left;
+    position: relative;
+    display:inline;
+    color: white;
+    height: 30%;
+    border: solid 4px #222222;
+}
+
+h2 {
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size: 40pt;
+    margin-left: 2%;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    margin-top: 7.85em;
+}
+/********** FOOTER ****************/
+#container{
+    height:100%;
+    margin-bottom: 30px;
+    position:relative;
+}
+#footer{
+    height:20%;
+    text-align:center;
+    font-size:0.8em;
+    font-weight:400;
+    color:black;
+    width:100%;
+    margin-top:1500px;
+    
+}
+.credit_mmfj{
+    font-size:0.7em;
+    font-weight:300;
+    color:black;
+}
+/********** HOME PAGE *****************/
+#home_title_mmfj {
+    color: #b31b1b;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 50pt;
+    text-align: left;
+    float: left;
+    margin: 3%;
+    width: 94%;
+}
+#identity{
+    float:left;
+}
+.content_mmfj{
+    color: #222222;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 16.5pt;
+    text-align: left;
+    float: left;
+    margin-left:45%;
+    margin-right:3%;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+.home_header_mmfj {
+    color: #b31b1b;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 22pt;
+    text-align: left;
+    float: left;
+    margin-right:3%;
+    margin-left:45%;
+}
+#header_mmfj {
+    color: #b31b1b;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 30pt;
+    text-align: left;
+    float: left;
+    margin-right:3%;
+    margin-left:36%;
+}
+#uni_content_mmfj{
+    color: #222222;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 16.5pt;
+    text-align: left;
+    float: left;
+    margin-left:36%;
+    margin-right:3%;
+    margin-top:3%;
+    margin-bottom:3%;
+}
