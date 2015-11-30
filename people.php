@@ -13,7 +13,40 @@
         
         <?php include "banner.php"; ?>
         
-        <div class="presentations_header_rmt">People</div>
+        <div class="people_topheader_ys">People</div>
+        
+        <ul class="graduate_ys">
+            <a href="#anthonyburrow" class="ys">Anthony Burrow</a>
+            <a href="#michaelcreim" class ="ys">Michael Creim</a>
+            <a href="#kaylinratner" class ="ys">Kaylin Ratner</a>
+            <a href="#kaylaburd" class ="ys">Kayla Burd</a>
+        </ul>
+        
+        <ul class="undergrad_ys">
+            <a href="#matthewavila" class ="ys">Matthew Avila</a>
+            <a href="#janeildennis" class ="ys">Janeil Dennis</a>
+            <a href="#joannaezratty" class ="ys">Joanna Ezratty</a>
+        </ul>
+        
+        <ul class="undergrad_ys">
+            <a href="#mushfeqahoque" class ="ys">Mushfeqa Hoque</a>
+            <a href="#mishathompson" class ="ys">Misha Inniss-Thompson</a>
+            <a href="#natanielmoore" class ="ys">Nataniel Moore</a>
+        </ul>    
+            
+        <ul class="undergrad_ys">
+            <a href="#ignatiusnam" class ="ys">Ignatius Nam</a>
+            <a href="#josephnelzy" class ="ys">Joseph Nelzy</a>
+            <a href="#alexanderperez" class ="ys">Alexander Perez</a>
+        </ul>
+        
+        <ul class="undergrad_ys">
+            <a href="#nicoletterainone" class ="ys">Nicolette Rainone</a>
+            <a href="#margaretsmith" class ="ys">Margaret Smith</a>
+            <a href="#ryantorrie" class ="ys">Ryan Torrie</a>            
+        </ul>
+        
+        <a name="anthonyburrow"></a>
         
         <h1 class="people_name_ys">Dr. Anthony Burrow</h1>
         <div class="people_info_ys">
@@ -31,6 +64,8 @@
         
         <h1 class="people_header_ys">Graduate Students</h1>
         
+        <a name="michaelcreim"></a>
+        
         <h1 class="people_name_ys">Michael Creim</h1>
         <div class="people_info_ys">
             <img src="img/michaelcreim.jpg" class="people_img_ys" alt="Michael Creim">
@@ -45,6 +80,23 @@
                learning to embrace this strange and alien concept that the locals here call seasons.
             </p>
         </div>
+        
+        <a href="#kaylinratner"></a>
+        <a href="#kaylaburd"></a>
+        
+        <a name="matthewavila"></a>
+        <a name="#matthewavila"></a>
+        <a name="#janeildennis"></a>
+        <a name="#joannaezratty"></a>
+        <a name="#mushfeqahoque"></a>
+        <a name="#mishathompson"></a>
+        <a name="#natanielmoore"></a>
+        <a name="#ignatiusnam"></a>
+        <a name="#josephnelzy"></a>
+        <a name="#alexanderperez"></a>
+        <a name="#nicoletterainone"></a>
+        <a name="#margaretsmith"></a>
+        <a name="#ryantorrie"></a>
         
     </div>
   
