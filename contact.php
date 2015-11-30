@@ -7,8 +7,10 @@
 </head>
 
 <body>
+    
+    <div id="outer_container_mmfj">
 
-    <div id="container">
+    <div id="header">
     <?php include "banner.php";?>
     </div>
     
@@ -26,7 +28,7 @@
             </div>
     
     
-    
+    </div>
     
 </body>
 

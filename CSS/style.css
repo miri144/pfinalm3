@@ -1,18 +1,16 @@
 .body {
     background-color: #b31b1b;
 }
-
 .banner {
     width: 100%;
+    float: left;
 }
-
 .logo {
     width: 10%;
     margin-left: 4%;
     background-color: white;
     float: left;
 }
-
 #nav {
     width: 80%;
     background-color: white;
@@ -21,14 +19,11 @@
     float: left;
     margin-top: 45px;
 }
-
 /* replace margin-top with a vertical center align command */
-
 .logo img {
     width: 100%;
 }
-
-a {
+.link {
     text-align: right;
     color: #b31b1b;
     font-size: 25pt;
@@ -37,28 +32,23 @@ a {
     margin-left: 3.5%;
     margin-right: 3.5%;
 }
-
-a:hover {
+.link:hover {
     color: #222222;
 }
-
-a:active {
+.link:active {
     color: #222222;
 }
-
 .identity_rmt {
     background-image: url(../img/bigboi.png);
     background-size: cover;
     width: 100%;
     float: left;
     display: inline;
-    position: relative;
+    /*position: relative;*/
     color: white;
     height: 30em;
     border: solid 4px #222222;
 }
-
-
 h2 {
     position: absolute;
     width: 100%;
@@ -69,7 +59,6 @@ h2 {
     font-weight: 400;
     margin-top: 7.85em;
 }
-
 .presentations_header_rmt {
     color: #b31b1b;
     font-family: 'Slabo 27px', serif;
@@ -80,7 +69,6 @@ h2 {
     margin: 3%;
     width: 94%;
 }
-
 .presentations_info_rmt {
     color: #222222;
     font-family: 'Slabo 27px', serif;
@@ -93,20 +81,17 @@ h2 {
     margin-bottom: 7%;
     width: 94%;
 }
-
 #contactus h1{
 	position: absolute;
 	left: 100px;
 	top: 150px;
 }
-
 #contactus p{
 	position: absolute;
 	left: 100px;
 	top: 220px;
 	width: 1000px;
 }
-
 #contactus img{
 	position: absolute;
 	left: 100px;
@@ -115,7 +100,7 @@ h2 {
 	width: 100px;
 	height: 100px;
 }
-
+/******** People Page ***********/
 #people_container_ys {
     color: #222222;
     margin-left: 3%;
@@ -123,7 +108,6 @@ h2 {
     margin-bottom: 7%;
     width: 94%;
 }
-
 .people_header_ys {
     font-style: italic;
     color: #000;
@@ -131,114 +115,142 @@ h2 {
     clear: both;
     padding-top: 2%;
 }
-
 .people_name_ys {
     font-weight: bold;
     color: #000;
     font-size: 17pt;
     clear:both;
 }
-
 .people_info_ys {
     padding-left: 2%;
     padding-top: 1%;
     padding-right: 2%;
     padding-bottom: 1%;
 }
-
 .people_img_ys {
     float: left;
     height: 150px;
     width: 150px;
     margin-right: 1%;
 }
-
 .people_p_ys {
     font-family: 'Slabo 27px', serif;
     font-weight: 400;
     font-size: 13pt;
 }
 /********** FOOTER ****************/
-#container{
+html, body{
     height:100%;
-    margin-bottom: 0px;
-    padding:20px 10px 0px 40px;
-    position:relative;
 }
-
+#outer_container{
+    height:100%;
+}
+#container{
+    height:90%;
+}
 #footer{
     text-align:center;
     font-size:0.8em;
     font-weight:400;
     color:black;
     width:100%;
-    margin-top:90%;
-    margin-bottom:0%;
-    height:100px;
-    padding-top:200px;
 }
 .credit_mmfj{
     font-size:0.7em;
     font-weight:300;
     color:black;
 }
-
-
 /********** HOME PAGE *****************/
 #home_title_mmfj {
     color: #b31b1b;
     font-family: 'Slabo 27px', serif;
     font-weight: 400;
-    font-size: 50pt;
-    text-align: left;
-    float: left;
-    margin: 3%;
+    font-size: 40pt;
+    text-align: center;
+    margin-top:3%;
     width: 94%;
 }
-#identity{
+#quote_mmfj{
+    font-size:30pt;
+    text-align:center;
+    margin:3%;
+    width:94%;
+    font-family:'Tangerine';
+    font-weight:400;
+}
+#author{
+    color:gray;
+    font-size:12pt;
+}
+#tabletitle_mmfj{
+    text-align:left;
+    font-size:30pt;
+    margin-bottom:.25em;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    color: black;
+}
+#main_content{
+    width:94%;
+    margin-left:3%;
+    margin-right: 3%;
+}
+#inner_main_content{
+    overflow:auto;
+}
+#news_pane_mmfj{
+    margin-left:0%;
+    width:30%;
+    margin-right3%;
+    float:left;
+    border:dotted grey;
+    padding:5px 5px 5px 5px;
+}
+#content_mmfj{
+    margin-left:3%;
+    width:61%;
+    margin-right:3%;
     float:left;
 }
-.content_mmfj{
+.inner_content_mmfj{
     color: #222222;
     font-family: 'Slabo 27px', serif;
     font-weight: 400;
     font-size: 15pt;
     text-align: left;
-    float: left;
-    margin-left:45%;
-    margin-right:3%;
-    margin-top:3%;
     margin-bottom:3%;
 }
-.home_header_mmfj {
-    color: #b31b1b;
+#special_inner_content_mmfj{
+    color: #222222;
     font-family: 'Slabo 27px', serif;
     font-weight: 400;
-    font-size: 20pt;
+    font-size: 15pt;
     text-align: left;
-    float: left;
-    margin-right:3%;
-    margin-left:45%;
+    margin-bottom:3%;
 }
-#header_mmfj {
+#special_header_mmfj{
     color: #b31b1b;
     font-family: 'Slabo 27px', serif;
     font-weight: 400;
     font-size: 30pt;
     text-align: left;
-    float: left;
-    margin-right:3%;
-    margin-left:36%;
+    margin-bottom:3%;
 }
-#uni_content_mmfj{
-    color: #222222;
+.header_mmfj {
+    color: #b31b1b;
     font-family: 'Slabo 27px', serif;
     font-weight: 400;
-    font-size: 15pt;
+    font-size: 20pt;
     text-align: left;
-    float: left;
-    margin-left:36%;
-    margin-right:3%;
-    margin-top:3%;
     margin-bottom:3%;
+}
+#news_pane_mmfj a{
+    text-align:left;
+    font-family:serif;
+    font-size:20pt;
+    text-decoration: none;
+    color:black;
+}
+#news_pane_mmfj a:hover{
+    color: #b31b1b;
 }

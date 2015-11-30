@@ -7,12 +7,15 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
     </head>
-    <body>   
-    <div>
+    <body>
+        <div id="outer_container_mmfj">
+    <div id="header">
     <?php
         include ('banner.php');
     ?>
     </div>
+    
+    <div id="main_content">
     <div class='presentations_header_rmt'>
         Recent Invited Presentations
     </div>
@@ -80,5 +83,10 @@ Burrow, A. L., Haneef, N., & Hodzic, T., & Hill, P. L. (2011). Purpose and emoti
         <br>
 O’Dell, A. C., Burrow, A. L., Hill, P. L. (2011). Relations among purpose, identity, and adjustment in adolescence.  Presented at the Biennial Meeting of the Society for Research on Child Development, Montreal, Quebec, Canada.  
     </div>
+        </div>
+            <div id="footer">
+                <?php include ('footer.php'); ?>
+            </div>
+            </div>
     </body>
     </html>
