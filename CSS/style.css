@@ -244,3 +244,25 @@ h2 {
     margin-top:3%;
     margin-bottom:3%;
 } 
+
+#map{
+    width: 500px;
+    height: 400px;
+    left: 200px;
+    border: 2px solid black;
+}
+
+.creditmap{
+    bottom: -475px;
+    font-size: 10px;
+}
+
+#directions{
+    width: 700px;
+    left: 130px;
+}
+
+.directions{
+    font-size: 15px;
+    width: 400px;
+	}
