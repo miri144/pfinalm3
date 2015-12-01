@@ -9,10 +9,12 @@
 </head>
 
 <body>
+    <div id="outer_container_mmfj">
     <div id="people_container_ys">
         
+        <div id="header">
         <?php include "banner.php"; ?>
-        
+        </div>
         <div class="presentations_header_rmt">People</div>
         
         <h1 class="people_name_ys">Dr. Anthony Burrow</h1>
@@ -47,6 +49,10 @@
         </div>
         
     </div>
+        <div id="footer">
+                <?php include ('footer.php'); ?>
+            </div>
+        </div>
   
 </body>
 </html>

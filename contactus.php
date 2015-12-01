@@ -7,28 +7,25 @@
 </head>
 
 <body>
-    
-    <div id="outer_container_mmfj">
 
-    <div id="header">
+    <div id="container">
     <?php include "banner.php";?>
-    </div>
-    
-    <div class='presentations_header_rmt'>
-        Reaching Us
-    </div>
-    <div class='presentations_info_rmt'>
-    If you would you more information on the Purpose and Identity Processes Laboratory, 
+
+    <div id="contactus"> 
+		<h1>Reaching Us</h1>
+		<p>
+			If you would you more information on the Purpose and Identity Processes Laboratory, 
 			or have questions about any of our past or ongoing research projects, please contact 
 			Dr. Anthony L. Burrow at: alb325@cornell.edu
-    </div>
-    
+		</p>
+		
+    </div> <!-- end of contactus -->
     <div id="footer">
                 <?php include ('footer.php'); ?>
             </div>
     
-    
     </div>
+    
     
 </body>
 
