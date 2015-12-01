@@ -21,6 +21,19 @@
 			Dr. Anthony L. Burrow at: alb325@cornell.edu
     </div>
     
+    <div id="container">
+        <p>Have any questions or comments?</p>
+
+        <form id="testForm" method="POST" action="email.php">
+            <input type="hidden" name="hiddenField" value="Some information">
+            <p>Name: <input name="name" type="text"></p>
+            <p>E-mail: <input name="email" type="text"></p>
+            <p>Message: <textarea name="message"></textarea></p>
+            <input type="submit" value="Submit">
+        </form>
+        
+    </div> <!-- end of container div -->
+    
     <div id="footer">
                 <?php include ('footer.php'); ?>
             </div>
